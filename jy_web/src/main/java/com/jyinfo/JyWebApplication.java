@@ -1,6 +1,6 @@
 package com.jyinfo;
 
-import ChatRoom.MyServer;
+
 import ChatRoom.ServerHandler;
 import ChatRoom.ServerHandlerImpl;
 import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrapUI;
