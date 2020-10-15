@@ -73,6 +73,10 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/consult/developConsult", "anon");
         filterChainDefinitionMap.put("/uploadFile/downLoadSoftWare", "anon");
 
+        // websocket接口
+        filterChainDefinitionMap.put("/app/**", "anon");
+        filterChainDefinitionMap.put("/endpoint-websocket/**", "anon");
+
         // 其他的
         filterChainDefinitionMap.put("/**", "jwt");
 
